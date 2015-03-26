@@ -38,6 +38,8 @@ The shake-counter uses data (**CMAccelerometerData**) from the device accelerome
 
 ##Walkthrough of all user stories:
 
+![Video Walkthrough](tip_calc_basic_use.gif)
+![Video Secret Game](tip_calc_secret_game.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
