@@ -16,6 +16,8 @@
 		16E207E41AC3BD6200FB77ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E207DF1AC3BD6200FB77ED /* ViewController.swift */; };
 		16E207E61AC3BD7A00FB77ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E207E51AC3BD7A00FB77ED /* LaunchScreen.xib */; };
 		16E207E81AC3BD8500FB77ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E207E71AC3BD8500FB77ED /* Main.storyboard */; };
+		16E207EB1AC3D73F00FB77ED /* tip_calc_basic_use.gif in Resources */ = {isa = PBXBuildFile; fileRef = 16E207E91AC3D73F00FB77ED /* tip_calc_basic_use.gif */; };
+		16E207EC1AC3D73F00FB77ED /* tip_calc_secret_game.gif in Resources */ = {isa = PBXBuildFile; fileRef = 16E207EA1AC3D73F00FB77ED /* tip_calc_secret_game.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		16E207DF1AC3BD6200FB77ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16E207E51AC3BD7A00FB77ED /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		16E207E71AC3BD8500FB77ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		16E207E91AC3D73F00FB77ED /* tip_calc_basic_use.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tip_calc_basic_use.gif; sourceTree = "<group>"; };
+		16E207EA1AC3D73F00FB77ED /* tip_calc_secret_game.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tip_calc_secret_game.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				16E207B71AC3BD3400FB77ED /* Tip Calculator CodePath */,
 				16E207CD1AC3BD3400FB77ED /* Tip Calculator CodePathTests */,
 				16E207B61AC3BD3400FB77ED /* Products */,
+				16E207E91AC3D73F00FB77ED /* tip_calc_basic_use.gif */,
+				16E207EA1AC3D73F00FB77ED /* tip_calc_secret_game.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,7 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E207E81AC3BD8500FB77ED /* Main.storyboard in Resources */,
+				16E207EC1AC3D73F00FB77ED /* tip_calc_secret_game.gif in Resources */,
 				16E207E61AC3BD7A00FB77ED /* LaunchScreen.xib in Resources */,
+				16E207EB1AC3D73F00FB77ED /* tip_calc_basic_use.gif in Resources */,
 				16E207C21AC3BD3400FB77ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
