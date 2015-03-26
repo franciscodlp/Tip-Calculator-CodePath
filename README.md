@@ -3,15 +3,14 @@
 
 This is an iOS Demo Application developped as part of the CodePath program application process. The app is a Tip Calculator that includes not only the basic features but a couple of optionals features
 
-Time spent: 15 hours*
+Time spent: 15 hours **(1)**
 
 
 Completed user stories:
 
- * [x] **Required**: User can calculate the tip of a given check based on parameters defined in a Setting page **
+ * [x] **Required**: User can calculate the tip of a given check based on parameters defined in a Setting page **(2)**
  * [x] **Required**: Settings data is stored using NSUserefaults to avoid requiring setup after every restart of the app
  * [x] **Required**: The app uses common View Controller Lifecyce functions: viewWillApper, viewDidLoad, etc.
- 
  * [x] **Optional**: User can navigate between the **Main VC** and the **Settings VC** both by **swipping** on the screen and using the **buttons** on the upper right corner of the screen
  * [x] **Optional**: User must rate the venue (Fancy-rate 1 to 5 forks) and the Quality of the service recived (1 to 5 stars). This info is used to compute the proper tip.
  * [x] **Optional**: **Settings**
@@ -26,7 +25,7 @@ Completed user stories:
  * [x] **Optional**: Segment controls have been customized with images
  * [x] **Optional**: The app includes custom icons for different devices and a loading page
  
- * [x] **Optional**: **>>>>>>>>>>>>>>>   Secret Game   <<<<<<<<<<<<<<<<<**
+ * [x] **Optional**: **>>>>>>>>>>>>>>>____ Secret Game ____<<<<<<<<<<<<<<<<<**
 Users can access a Secret Game by Shaking the device while in the results page. A button inviting to participate will appear. 
 The idea would be to challenge friendly servers that deliver an outstanding Quality of Service Tip Boost to play the game for a potential Tip Boost of 5% in the bill.
 The aim of the game is to shake the device at least 50 times in 10 secongs to get the prize. If the user wins, a Congratulations Badge will be displayed on the screen toghether with the updates values for Total, Tip Rate and Tip Value.
@@ -44,5 +43,6 @@ The shake-counter uses data (**CMAccelerometerData**) from the device accelerome
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
-(*) Includes time reading classes and framework references such as UIKit Dynamics Catalog, UIStoryboardsegue. Also some time learning about the Xcode Developper Tool "Instruments", as well as understanding diferences between Objective-C and Swift in terms of memory management (e.g. ARC)
-(**) The app does not use a Navigation Controller and handle the transitions between VC manually
+**(1)** Includes time reading classes and framework references such as UIKit Dynamics Catalog, UIStoryboardsegue. Also some time learning about the Xcode Developper Tool "Instruments", as well as understanding diferences between Objective-C and Swift in terms of memory management (e.g. ARC)
+
+**(2)** The app does not use a Navigation Controller and handle the transitions between VC manually
